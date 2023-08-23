@@ -64,7 +64,7 @@
 
         <div class="home-img">
             <div class="img-box">
-                <img src="/img/Imagen1.png" alt="">
+                <img src="./img/Imagen1.png" alt="">
             </div>
 
             <div class="liquid-shape">
@@ -123,7 +123,7 @@
     <section id="about" class="about">
 
         <div class="img-about">
-            <img src="/img/sobremi.jpg" alt="">
+            <img src="./img/sobremi.jpg" alt="">
             <div class="info-about1">
                 <span>1</span>
                 <p>Year of Experience</p>
@@ -298,16 +298,76 @@
 
         <div class="container">
             <div class="fillter-buttons">
-                <button class="btn">All</button>
-                <button class="btn">Product</button>
-                <button class="btn">interacting</button>
-                <button class="btn">Web App</button>
+                <button class="btn" data-filter="all">All</button>
+                <button class="btn" data-filter=".product">Product</button>
+                <button class="btn" data-filter=".inter">interacting</button>
+                <button class="btn" data-filter=".web">Web App</button>
             </div>
 
             <div class="portfolio-gallery">
-                <div class="port-box">
+                <div class="port-box mix product">
                     <div class="port-image">
-                        <img src="img/1.jpg" alt="">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>My graphic design portfolio reflects the creative-functional fusion in impactful projects, <br> from logos to memorable packaging designs.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="./img/2.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>My graphic design portfolio reflects the creative-functional fusion in impactful projects, <br> from logos to memorable packaging designs.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="./img/3.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>My graphic design portfolio reflects the creative-functional fusion in impactful projects, <br> from logos to memorable packaging designs.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="./img/4.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>My graphic design portfolio reflects the creative-functional fusion in impactful projects, <br> from logos to memorable packaging designs.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix inter">
+                    <div class="port-image">
+                        <img src="./img/5.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>My graphic design portfolio reflects the creative-functional fusion in impactful projects, <br> from logos to memorable packaging designs.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="./img/6.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Graphic Design</h3>
+                        <p>My graphic design portfolio reflects the creative-functional fusion in impactful projects, <br> from logos to memorable packaging designs.</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
                     </div>
                 </div>
             </div>
@@ -315,6 +375,7 @@
 
     </section>
 
+    <script src="mixitup.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
