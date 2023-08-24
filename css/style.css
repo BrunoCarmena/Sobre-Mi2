@@ -794,16 +794,6 @@ footer a i{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Keyframes-------------- */
 
 @keyframes morph {
@@ -957,5 +947,39 @@ footer a i{
 
     .about{
         flex-direction: column-reverse;
+    }
+
+    .skills-main{
+        grid-template-columns: 1fr;
+    }
+
+    .fillter-buttons{
+        margin: 2.5rem 0;
+    }
+
+    footer p{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:420px){
+    html{
+        font-size: 80%;
+    }
+
+    footer p{
+        font-size: .6rem;
+    }
+    .fillter-buttons .btn{
+        font-size: .8rem;
+    }
+    .img-about img{
+        width: 300px;
+    }
+    .info-about1,.info-about2,.info-about3{
+        display: none;
+    }
+    .img-about p{
+        font-size: 1rem;
     }
 }
