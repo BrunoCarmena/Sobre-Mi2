@@ -121,3 +121,34 @@ scrollBottom.forEach((el) => observer.observe(el));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
+
+
+
+//buttons read
+
+
+function toggleDisplay(elementId, buttonText) {
+    var element = document.getElementById(elementId);
+    element.style.display = (element.style.display === 'none' || element.style.display === '') ? 'block' : 'none';
+    document.getElementById(buttonText).textContent = (element.style.display === 'none') ? 'Read More' : 'Read Less';
+}
+
+function ShowMoreInfo() {
+    toggleDisplay('paragraphHidden', 'ShowMoreInfoBtn');
+}
+
+function ShowTextCeomplet() {
+    toggleDisplay('textComplete', 'ShowTextCompleteBtn');
+}
+
+function SeeText() {
+    toggleDisplay('txtComplete', 'SeeTextBtn');
+}
+
+function ShowMore() {
+    toggleDisplay('txtComplete2', 'ShowMoreBtn');
+}
+
+
+
+
